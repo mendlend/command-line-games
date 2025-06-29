@@ -3,7 +3,7 @@
 ## Description
 This project is a terminal-based game suite written in C, featuring Minesweeper, Snake, and Tic Tac Toe. The games use ASCII graphics and are rendered using the ncurses library. To play, run the following command:
 ```bash
-./play game_name
+play game_name
 ```
 ### What I used
 The project is written in C and uses simple ASCII graphics with the help of the ncurses library. The ncurses library makes it easier to render the games by giving increased access to the terminal, allowing the printing of characters anywhere on the screen and changing their colours. It also gives more control when handling input, like not echoing inputted characters and disabling line buffering, which is utilised in all of the games. It also allows the snake game to update without waiting for the user's input, and finally, it doesn't clutter up the terminal after a game ends, allowing users to continue right where they left off.
